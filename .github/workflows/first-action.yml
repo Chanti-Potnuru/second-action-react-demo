@@ -1,0 +1,12 @@
+name: First CI Pipeline
+
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello Faf"
+      - name: Print How are you ?
+        run: echo "Doing good"
