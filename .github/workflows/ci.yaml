@@ -50,7 +50,7 @@ jobs:
         - name: Get code
           uses: actions/checkout@v5
         - name: Download artifacts
-          uses: actions/download-artifact@v3
+          uses: actions/download-artifact@v4
           with:
             name: build-artifacts
         - name: Install Node.js
